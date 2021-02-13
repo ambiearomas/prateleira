@@ -71,7 +71,8 @@ figcaption {
 
 img,
 svg {
-	display: block;
+	//display: block;
+	display:ruby-base-container;
 }
 
 // tables

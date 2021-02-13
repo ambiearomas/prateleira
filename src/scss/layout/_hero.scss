@@ -230,15 +230,16 @@
 @include media( '>medium' ) {
 
     .hero {
-		text-align: left;
+		text-align: center;
         padding-top: 64px;
         padding-bottom: 88px;
+		justify-content: center;
     }
 
 	.hero-inner {
 		/* Split hero in two half */
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 	}
 
@@ -246,6 +247,7 @@
 		padding-right: 64px;
         min-width: 552px;
         width: 552px;
+
     }
 
 	.hero-cta {
