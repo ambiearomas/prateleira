@@ -74,3 +74,9 @@
 
   }
 }())
+
+function sendOrder() {
+  let num = 5592999810845;
+  let msg = "Capim na palheteres!!!";
+  window.open(`https://wa.me/${num}?text=${msg}`, '_blank');
+}
