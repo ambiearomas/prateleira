@@ -8,7 +8,7 @@
     <title>Ambi&#234;</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     
- <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Open+Sans&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Open+Sans&family=Reenie+Beanie&display=swap" rel="stylesheet">
 
     <!-- <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet"> -->
 
@@ -33,7 +33,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/dist/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
+    <!-- Google Material Icons-->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">   
 
 </head>
     
@@ -92,6 +95,32 @@
                                     </div>
                                     <h4 class="feature-title mt-24">R$25,00</h4>
                                     <p class="text-sm mb-0">Kit com 3 frascos de vidro spray, 15ml cada, contendo 3 aromas a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
+                                    <div class="mdc-chip-set mdc-chip-set--choice" role="grid">
+                                        <div class="mdc-chip" role="row">
+                                          <div class="mdc-chip__ripple"></div>
+                                          <span role="gridcell">
+                                            <span role="button" tabindex="0" class="mdc-chip__primary-action">
+                                              <span class="mdc-chip__text">Chip One</span>
+                                            </span>
+                                          </span>
+                                        </div>
+                                        <div class="mdc-chip" role="row">
+                                          <div class="mdc-chip__ripple"></div>
+                                          <span role="gridcell">
+                                            <span role="button" tabindex="-1" class="mdc-chip__primary-action">
+                                              <span class="mdc-chip__text">Chip Two</span>
+                                            </span>
+                                          </span>
+                                        </div>
+                                        <div class="mdc-chip" role="row">
+                                            <div class="mdc-chip__ripple"></div>
+                                            <span role="gridcell">
+                                              <span role="button" tabindex="-1" class="mdc-chip__primary-action">
+                                                <span class="mdc-chip__text">Chip Three</span>
+                                              </span>
+                                            </span>
+                                          </div>
+                                      </div>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -202,7 +231,7 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
+                                        <button class="button button-primary button-shadow button-block" onclick="sendOrder()">Fazer pedido pelo WhatsApp</button>
                                     </div>
                                 </div>
                             </div>
