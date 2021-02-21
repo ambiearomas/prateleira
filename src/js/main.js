@@ -1,14 +1,40 @@
-(function () {
-  const win = window
-  const doc = document.documentElement
+const Types = Object.freeze({
+  ROUPAS: Symbol('Roupas'),
+  PAPEL: Symbol('Papel'),
+  AMBIENTE: Symbol('Ambiente')
+})
 
+class Item {
+  constructor (name, price, type, aroma) {
+    this.name = name
+    this.price = price
+    this.type = type
+    this.aroma = aroma
+  }
+}
+
+var doc = document.documentElement
+var win = window
+var cart = Item[{}]
+
+function sendOrder () {
+  let num = 5592999810845
+  let msg = 'Capim na palheteres!!!'
+  win.open(`https://wa.me/${num}?text=${msg}`, '_blank')
+}
+
+function updateCart (el) {
+  console.log(el)
+}
+
+(function () {
   doc.classList.remove('no-js')
   doc.classList.add('js')
 
   // Reveal animations
   if (document.body.classList.contains('has-animations')) {
     /* global ScrollReveal */
-    const sr = window.sr = ScrollReveal()
+    const sr = win.sr = ScrollReveal()
 
     sr.reveal('.feature, .pricing-table-inner', {
       duration: 600,
@@ -69,9 +95,3 @@
     })
   }
 }())
-
-function sendOrder() {
-  let num = 5592999810845;
-  let msg = "Capim na palheteres!!!";
-  window.open(`https://wa.me/${num}?text=${msg}`, '_blank');
-}

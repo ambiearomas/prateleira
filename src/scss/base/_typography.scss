@@ -206,7 +206,7 @@ pre .h6  {
 	@include font-family(pre);
 }
 
-pre, code, kbd, tt, var {
+pre, code, kbd, tt {
 	background: color(bg, 2);
 }
 
@@ -220,7 +220,7 @@ pre {
 	margin-bottom: 24px;
 }
 
-code, kbd, tt, var {
+code, kbd, tt {
 	@include font-family(code);
 	@include font-size(7, mobile, true);
 	padding: 2px 4px;

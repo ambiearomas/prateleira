@@ -16,23 +16,7 @@
 	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/dist/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/dist/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/dist/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/dist/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/dist/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/dist/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/dist/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/dist/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/dist/images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/dist/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/dist/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/dist/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/dist/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/dist/images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/dist/images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+
     <!-- Google Material Icons-->
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> 
@@ -94,33 +78,16 @@
 										<img src="dist/images/frascospray60ml.svg"  alt="Kit Frasco vidro spray 15ml" width="200px">
                                     </div>
                                     <h4 class="feature-title mt-24">R$25,00</h4>
+                                    <button class="mdc-button feature-quantity-button" onclick="updateCart(this)">
+                                        <span class="mdc-button__ripple"></span>
+                                        <i class="material-icons mdc-button__icon" aria-hidden="true">remove</i>
+                                    </button>
+                                    <var class="feature-quantity">0</var>
+                                    <button class="mdc-button feature-quantity-button" onclick="updateCart(this)">
+                                        <span class="mdc-button__ripple"></span>
+                                        <i class="material-icons mdc-button__icon" aria-hidden="true">add</i>
+                                    </button>
                                     <p class="text-sm mb-0">Kit com 3 frascos de vidro spray, 15ml cada, contendo 3 aromas a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
-                                    <div class="mdc-chip-set mdc-chip-set--choice" role="grid">
-                                        <div class="mdc-chip" role="row">
-                                          <div class="mdc-chip__ripple"></div>
-                                          <span role="gridcell">
-                                            <span role="button" tabindex="0" class="mdc-chip__primary-action">
-                                              <span class="mdc-chip__text">Chip One</span>
-                                            </span>
-                                          </span>
-                                        </div>
-                                        <div class="mdc-chip" role="row">
-                                          <div class="mdc-chip__ripple"></div>
-                                          <span role="gridcell">
-                                            <span role="button" tabindex="-1" class="mdc-chip__primary-action">
-                                              <span class="mdc-chip__text">Chip Two</span>
-                                            </span>
-                                          </span>
-                                        </div>
-                                        <div class="mdc-chip" role="row">
-                                            <div class="mdc-chip__ripple"></div>
-                                            <span role="gridcell">
-                                              <span role="button" tabindex="-1" class="mdc-chip__primary-action">
-                                                <span class="mdc-chip__text">Chip Three</span>
-                                              </span>
-                                            </span>
-                                          </div>
-                                      </div>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
