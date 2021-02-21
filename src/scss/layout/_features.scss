@@ -30,6 +30,11 @@
     justify-content: center;
 }
 
+.feature-quantity {
+	color: color(typography, 1);
+	@include font-weight(bold);
+}
+
 @include media( '>medium' ) {
 
     .features-wrap {
