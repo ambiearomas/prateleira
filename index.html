@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,14 +29,14 @@
         <header class="site-header">
             <div class="container">
                 <div class="site-header-inner" style="justify-content: center;">
-                
+                    <div class="brand header-brand">
                         <h1 class="m-0">
                             
 							<a href="#">
-								<img class="header-logo-image" src="dist/images/logo.svg"  alt="Logo" style="width: 200px;">
+								<img class="header-logo-image" src="dist/images/logo_ambie.svg"  alt="Logo" width="200px">
                             </a>
                         </h1>
-                    
+                    </div>
                 </div>
             </div>
         </header>
@@ -50,31 +45,25 @@
             <section class="hero">
 
                 <div class="container">
-                  			      
-	                        <h1 class="hero-title mt-0"> <img src="dist/images/Recadinho.svg"  style="width:200px"></h1> 
-                </div>
-            </section>
-
-            <section class="features section">
-                <div class="container">
-                    <div class="features-inner section-inner has-bottom-divider">
-                         <div class="features-wrap">
-                            
-                                <div class="feature-inner">
-                                    <h5 class="hero-title mt-0"> <img src="dist/images/sprays_menu.svg" style="width: 150px;"></h5>
-                                </div>
-                            
-                                <div class="feature-inner">
-                                 <h5 class="hero-title mt-0"> <img src="dist/images/difusores_menu.svg" style="width: 150px;"></h5>
-                                </div>
-                                                   
-                               <!-- <div class="feature-inner">
-                                 <h5 class="hero-title mt-0"> <img src="dist/images/perfumeparaambiente_menu.svg" style="width: 150px;"></h5> 
-                                </div> -->
-
-                         </div>                                        
+                    <div class="hero-inner">
+						<div class="hero-copy">
+                           
+	                        <h1 class="hero-title mt-0"> <img src="dist/images/Recadinho.svg" width="200px"></h1>
+	                                          
+						</div>
 					</div>
-				</div> 
+                </div>
+
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy"> 
+                            <h5 class="hero-title mt-0"> <img src="dist/images/perfumepararoupas_menu.svg" style="max-width: 200px;"></h5>
+	                        <h5 class="hero-title mt-0"> <img src="dist/images/perfumeparapapel_menu.svg" style="max-width: 200px;"></h5>
+                            <h5 class="hero-title mt-0"> <img src="dist/images/perfumeparaambiente_menu.svg" style="max-width: 200px;"></h5>
+	                    </div>
+					</div>
+                </div>
+
             </section>
 
         
@@ -84,10 +73,10 @@
                         <div class="features-wrap">
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
-                                    <!-- <div class="feature-icon">  -->
+                                    <div class="feature-icon"> 
                                                                                    
-										<img src="dist/images/spray60ml.png"  alt="Kit Frasco vidro spray 15ml" style="width:100px;">
-                                    <!-- </div> -->
+										<img src="dist/images/frascospray60ml.svg"  alt="Kit Frasco vidro spray 15ml" width="200px">
+                                    </div>
                                     <h4 class="feature-title mt-24">R$25,00</h4>
                                     <button class="mdc-button feature-quantity-button" onclick="updateCart(this)">
                                         <span class="mdc-button__ripple"></span>
@@ -98,125 +87,31 @@
                                         <span class="mdc-button__ripple"></span>
                                         <i class="material-icons mdc-button__icon" aria-hidden="true">add</i>
                                     </button>
-                                    <p class="text-sm mb-0">Kit com 3 frascos de vidro, spray, 15ml cada, contendo 3 aromas a sua escolha.</p>
-                                        <div>
-                                            <input type = "radio" id = "1" name = "tipo" valor = "Perfume para papel">
-                                            <label for = "Papel"> Papel </label>
-                                            <input type = "radio" id = "2" name = "tipo" valor = "Perfume para roupa">
-                                            <label for = "Roupa"> Roupa </label>
-                                            <input type = "radio" id = "3" name = "tipo" valor = "Perfume para ambiente">
-                                            <label for = "Ambiente"> Ambiente </label>
-
-                                            <div class="dropdown">
-                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Escolha 3 aromas<span class="caret"></span></button>
-                                                <ul class="dropdown-menu">
-                                                     <li><a href="#"><input type="checkbox" name="" value="Lavanda">Lavanda</a></li>
-                                                     <li><a href="#"><input type="checkbox" name="" value="one">Rosas Vermelhas</a></li>
-                                                     <li><a href="#"><input type="checkbox" name="" value="one">Breu Branco</a></li>
-                                                     <li><a href="#"><input type="checkbox" name="" value="one">Flor de Ameixa</a></li>
-                                                     <li><a href="#"><input type="checkbox" name="" value="one">Flor de Laranjeira</a></li>
-                                                     <li><a href="#"><input type="checkbox" name="" value="one">Flor de Cerejeira</a></li>
-                                                </ul>
-                                            </div> 
-                                        </div>
+                                    <p class="text-sm mb-0">Kit com 3 frascos de vidro spray, 15ml cada, contendo 3 aromas a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
-                                    <!-- <div class="feature-icon"> -->
-										<img src="dist/images/spray60ml.png" alt="Frasco pet spray 60ml" style="width:100px;">
-                                    <!-- </div> -->
+                                    <div class="feature-icon">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco pet spray 60ml" width="200px">
+                                    </div>
                                     <h4 class="feature-title mt-24">R$15,00</h4>
-                                    <p class="text-sm mb-0">Frasco pet spray redondo. Contém 60ml de aroma a sua escolha.</p>
-                                    <div>
-                                        <input type = "radio" id = "1" name = "tipo" valor = "Perfume para papel">
-                                        <label for = "Papel"> Papel </label>
-                                        <input type = "radio" id = "2" name = "tipo" valor = "Perfume para roupa">
-                                        <label for = "Roupa"> Roupa </label>
-                                        <input type = "radio" id = "3" name = "tipo" valor = "Perfume para ambiente">
-                                        <label for = "Ambiente"> Ambiente </label>
-
-                                        <div class="dropdown">
-                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Escolha seu aroma                            <span class="caret"></span></button>
-                                            <ul class="dropdown-menu">
-                                              <li><a href="#">Lavanda</a></li>
-                                              <li><a href="#">Rosas Vermelhas</a></li>
-                                              <li><a href="#">Breu Branco</a></li>
-                                              <li><a href="#">Flor de Ameixa</a></li>
-                                              <li><a href="#">Flor de Laranjeira</a></li>
-                                              <li><a href="#">Flor de Cerejeira</a></li>
-                                              <li><a href="#">Floral Bebê</a></li>
-                                              <li><a href="#">Cheirinho de Bebê</a></li>
-                                              <li><a href="#">Sândalo</a></li>
-                                              <li><a href="#">Capim Limão</a></li>
-                                              <li><a href="#">Alecrim</a></li>
-                                              <li><a href="#">Baunilha</a></li>
-                                              <li><a href="#">Açaí</a></li>
-                                              <li><a href="#">Flor Tupinambá</a></li>
-                                              <li><a href="#">Mulateiro</a></li>
-                                              <li><a href="#">Muru Muru</a></li>
-                                              <li><a href="#">Patmirra</a></li>
-                                              <li><a href="#">Ambaly</a></li>
-                                              <li><a href="#">Algodão</a></li>
-                                              <li><a href="#">Bambu</a></li>
-                                              <li><a href="#">Mamãe Bebê</a></li>
-                                              <li><a href="#">Buriti</a></li>
-                                            </ul>
-                                          </div>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <!-- <div class="feature-icon"> -->
-										<img src="dist/images/spray60ml.png" alt="Frasco vidro spray 200ml" width="100px">
-                                    <!-- </div> -->
-                                    <h4 class="feature-title mt-24">R$ 40,00</h4>
-                                    <p class="text-sm mb-0">Frasco de vidro spray estilo retrô. Contém 200ml de aroma a sua escolha.</p>
-                                    <div>
-                                        <input type = "checkbox" id = "1" name = "tipo" valor = "5 varetas de bambu">
-                                        <label for = "Papel"> 5 Varetas de Bambu (+R$0,00)</label>
-                                        <input type = "checkbox" id = "2" name = "tipo" valor = "5 varetas de fibra">
-                                        <label for = "Roupa"> 5 Varetas de Fibra (+R$5,00)  </label>
-                                        <input type = "checkbox" id = "3" name = "tipo" valor = "1 flor difusora">
-                                        <label for = "Ambiente"> 1 Flor Difusora (+R$10,00)</label>
-
-                                        <div class="dropdown">
-                                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Escolha seu aroma                            <span class="caret"></span></button>
-                                            <ul class="dropdown-menu">
-                                              <li><a href="#">Lavanda</a></li>
-                                              <li><a href="#">Rosas Vermelhas</a></li>
-                                              <li><a href="#">Breu Branco</a></li>
-                                              <li><a href="#">Flor de Ameixa</a></li>
-                                              <li><a href="#">Flor de Laranjeira</a></li>
-                                              <li><a href="#">Flor de Cerejeira</a></li>
-                                              <li><a href="#">Floral Bebê</a></li>
-                                              <li><a href="#">Cheirinho de Bebê</a></li>
-                                              <li><a href="#">Sândalo</a></li>
-                                              <li><a href="#">Capim Limão</a></li>
-                                              <li><a href="#">Alecrim</a></li>
-                                              <li><a href="#">Baunilha</a></li>
-                                              <li><a href="#">Açaí</a></li>
-                                              <li><a href="#">Flor Tupinambá</a></li>
-                                              <li><a href="#">Mulateiro</a></li>
-                                              <li><a href="#">Muru Muru</a></li>
-                                              <li><a href="#">Patmirra</a></li>
-                                              <li><a href="#">Ambaly</a></li>
-                                              <li><a href="#">Algodão</a></li>
-                                              <li><a href="#">Bambu</a></li>
-                                              <li><a href="#">Mamãe Bebê</a></li>
-                                              <li><a href="#">Buriti</a></li>
-                                            </ul>
-                                          </div>
-                                    </div>
-                                    
+                                    <p class="text-sm mb-0">Frasco pet spray redondo. Contém 60ml de aroma a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/spray60ml.png" alt="Frasco pet spray 240ml" width="200px">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco vidro spray 200ml" width="200px">
+                                    </div>
+                                    <h4 class="feature-title mt-24">R$ 40,00</h4>
+                                    <p class="text-sm mb-0">Frasco de vidro spray estilo retrô. Contém 200ml de aroma a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco pet spray 240ml" width="200px">
                                     </div>
                                     <h4 class="feature-title mt-24">R$ 45,00</h4>
                                     <p class="text-sm mb-0">Frasco pet spray redondo; 240ml de aroma a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
@@ -225,7 +120,7 @@
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/spray60ml.png" alt="Frasco vidro preto difusor 50ml" width="200px">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco vidro preto difusor 50ml" width="200px">
                                     </div>
                                     <h4 class="feature-title mt-24">R$ 35,00</h4>
                                     <p class="text-sm mb-0">Frasco de vidro, formato cubo, preto, difusor; 50ml de aroma a sua escolha. Acompanha 5 varetas de bambu.Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
@@ -234,7 +129,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/spray60ml.png" alt="Frasco vidro preto difusor 250ml" width="200px">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco vidro preto difusor 250ml" width="200px">
                                     </div>
                                     <h4 class="feature-title mt-24">R$ 75,00</h4>
                                     <p class="text-sm mb-0">Frasco de vidro, formato cubo, preto, difusor com 250ml de aroma a sua escolha. Acompanha 5 varetas de bambu.Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
@@ -243,7 +138,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/spray60ml.png" alt="Frasco vidro ambar difusor 200ml" width="200px">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco vidro ambar difusor 200ml" width="200px">
                                     </div>
                                     <h4 class="feature-title mt-24">R$ 35,00</h4>
                                     <p class="text-sm mb-0">Frasco de vidro ambar, difusor. Contém 200ml de aroma a sua escolha. Acompanha 5 varetas de bambu.Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
@@ -252,7 +147,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/spray60ml.png" alt="Frasco vidro transparente difusor 250ml" width="200px">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco vidro transparente difusor 250ml" width="200px">
                                     </div>
                                     <h4 class="feature-title mt-24">R$ 75,00</h4>
                                     <p class="text-sm mb-0">Frasco de vidro, transparente, difusor. Contém 250ml de aroma a sua escolha. Acompanha 5 varetas de bambu.Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
@@ -261,7 +156,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/spray60ml.png" alt="Frasco vidro transparente difusor 250ml" width="200px">
+										<img src="dist/images/kit3_transparente.svg" alt="Frasco vidro transparente difusor 250ml" width="200px">
                                     </div>
                                     <h4 class="feature-title mt-24">R$ 75,00</h4>
                                     <p class="text-sm mb-0">Frasco de vidro, transparente, difusor. Contém 250ml de aroma a sua escolha. Acompanha 5 varetas de bambu.Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
@@ -276,7 +171,7 @@
                 <div class="container-sm">
                     <div class="pricing-inner section-inner">
                         <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0"> Dê uma espiadinha na sua cesta</h2>
+                            <h2 class="section-title mt-0"> Dê uma espiadinnha na sua cesta</h2>
                             <p class="section-paragraph mb-0">xxxxxxxxxxxxxxxxxxxxxx</p>
                         </div>
 						<div class="pricing-tables-wrap">
@@ -286,7 +181,7 @@
                                         <div class="pricing-table-header pb-24">
                                             <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1">49</span><span class="text-xs">/month</span></div>
                                         </div>
-										<div class="pricing-table-features-title text-xs pt-24 pb-24">Confirme seu pedido e clique para me enviar.</div>
+										<div class="pricing-table-features-title text-xs pt-24 pb-24">Que legal! Dá uma espiadinha nos seus desejos</div>
                                         <ul class="pricing-table-features list-reset text-xs">
                                             <li>
                                                 <span>Lorem ipsum dolor sit nisi</span>
