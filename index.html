@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -64,36 +69,25 @@
             </section>
 
             <section class="features section">
-
                 <div class="container">
-
-                    
-
+                    <div class="features-inner section-inner has-bottom-divider">
                          <div class="features-wrap">
                             
                                 <div class="feature-inner">
-                                    <h5 class="hero-title mt-0"> <img src="dist/images/perfumepararoupas_menu.svg" style="width: 200px;"></h5>
-                                 </div>
+                                    <h5 class="hero-title mt-0"> <img src="dist/images/sprays_menu.svg" style="width: 150px;"></h5>
+                                </div>
                             
+                                <div class="feature-inner">
+                                 <h5 class="hero-title mt-0"> <img src="dist/images/difusores_menu.svg" style="width: 150px;"></h5>
+                                </div>
+                                                   
+                               <!-- <div class="feature-inner">
+                                 <h5 class="hero-title mt-0"> <img src="dist/images/perfumeparaambiente_menu.svg" style="width: 150px;"></h5> 
+                                </div> -->
 
-                            
-
-                            <div class="feature-inner">
-                                 <h5 class="hero-title mt-0"> <img src="dist/images/perfumeparapapel_menu.svg" style="width: 200px;"></h5>
-                            </div>
-                            
-
-                            
-                            <div class="feature-inner">
-                                 <h5 class="hero-title mt-0"> <img src="dist/images/perfumeparaambiente_menu.svg" style="width: 200px;"></h5> 
-                            </div>
-                            
-                            
-                            
-                        </div>                        
-						
+                         </div>                                        
+					</div>
 				</div> 
-
             </section>
 
         
@@ -108,7 +102,26 @@
 										<img src="dist/images/kit3_transparente.svg"  alt="Kit Frasco vidro spray 15ml" style="width:200px;">
                                     </div>
                                     <h4 class="feature-title mt-24">R$25,00</h4>
-                                    <p class="text-sm mb-0">Kit com 3 frascos de vidro spray, 15ml cada, contendo 3 aromas a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
+                                    <p class="text-sm mb-0">Kit com 3 frascos de vidro, spray, 15ml cada, contendo 3 aromas a sua escolha.</p>
+                                        <div>
+                                            <input type = "radio" id = "1" name = "tipo" valor = "papel">
+                                            <label for = "Papel"> Papel </label>
+                                            <input type = "radio" id = "2" name = "tipo" valor = "roupa">
+                                            <label for = "Roupa"> Roupa </label>
+                                            <input type = "radio" id = "3" name = "tipo" valor = "ambiente">
+                                            <label for = "Ambiente"> Ambiente </label>
+                                            <div class="dropdown">
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Escolha seu aroma                            <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                  <li><a href="#">Lavanda</a></li>
+                                                  <li><a href="#">Rosas Vermelhas</a></li>
+                                                  <li><a href="#">Breu Branco</a></li>
+                                                  <li><a href="#">Flor de Ameixa</a></li>
+                                                  <li><a href="#">Flor de Laranjeira</a></li>
+                                                  <li><a href="#">Flor de Cerejeira</a></li>
+                                                </ul>
+                                              </div>
+                                        </div>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -117,16 +130,33 @@
 										<img src="dist/images/kit3_transparente.svg" alt="Frasco pet spray 60ml" style="width:200px;">
                                     </div>
                                     <h4 class="feature-title mt-24">R$15,00</h4>
-                                    <p class="text-sm mb-0">Frasco pet spray redondo. Contém 60ml de aroma a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
+                                    <p class="text-sm mb-0">Frasco pet spray redondo. Contém 60ml de aroma a sua escolha.</p>
+                                    <div>
+                                        <input type = "radio" id = "1" name = "tipo" valor = "papel">
+                                        <label for = "Papel"> Papel </label>
+                                        <input type = "radio" id = "2" name = "tipo" valor = "roupa">
+                                        <label for = "Roupa"> Roupa </label>
+                                        <input type = "radio" id = "3" name = "tipo" valor = "ambiente">
+                                        <label for = "Ambiente"> Ambiente </label>
+                                    </div>
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
-                                    <div class="feature-icon">
+                                    <!-- <div class="feature-icon"> -->
 										<img src="dist/images/kit3_transparente.svg" alt="Frasco vidro spray 200ml" width="200px">
-                                    </div>
+                                    <!-- </div> -->
                                     <h4 class="feature-title mt-24">R$ 40,00</h4>
-                                    <p class="text-sm mb-0">Frasco de vidro spray estilo retrô. Contém 200ml de aroma a sua escolha. Nossos produtos são artesanais podendo sofrer variações de cor e design.</p>
+                                    <p class="text-sm mb-0">Frasco de vidro spray estilo retrô. Contém 200ml de aroma a sua escolha.</p>
+                                    <div>
+                                        <input type = "radio" id = "1" name = "tipo" valor = "papel">
+                                        <label for = "Papel"> Papel </label>
+                                        <input type = "radio" id = "2" name = "tipo" valor = "roupa">
+                                        <label for = "Roupa"> Roupa </label>
+                                        <input type = "radio" id = "3" name = "tipo" valor = "ambiente">
+                                        <label for = "Ambiente"> Ambiente </label>
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
@@ -192,7 +222,7 @@
                 <div class="container-sm">
                     <div class="pricing-inner section-inner">
                         <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0"> Dê uma espiadinnha na sua cesta</h2>
+                            <h2 class="section-title mt-0"> Dê uma espiadinha na sua cesta</h2>
                             <p class="section-paragraph mb-0">xxxxxxxxxxxxxxxxxxxxxx</p>
                         </div>
 						<div class="pricing-tables-wrap">
@@ -202,7 +232,7 @@
                                         <div class="pricing-table-header pb-24">
                                             <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1">49</span><span class="text-xs">/month</span></div>
                                         </div>
-										<div class="pricing-table-features-title text-xs pt-24 pb-24">Que legal! Dá uma espiadinha nos seus desejos</div>
+										<div class="pricing-table-features-title text-xs pt-24 pb-24">Confirme seu pedido e clique para me enviar.</div>
                                         <ul class="pricing-table-features list-reset text-xs">
                                             <li>
                                                 <span>Lorem ipsum dolor sit nisi</span>

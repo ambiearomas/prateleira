@@ -67,5 +67,10 @@
       opacity: [0, 1],
       easing: 'easeInOutExpo'
     })
+
+    
+
+
+
   }
 }())
