@@ -30,6 +30,27 @@
     justify-content: center;
 }
 
+.feature-select-aroma {
+    color:rgb(25, 9, 65);
+    width: 85%;         
+    display: inline-block;
+    vertical-align: top;
+    background-color: transparent;
+    border: 0;
+    border-radius: 2.5px;
+    text-align-last: center;
+    text-align:center;
+}
+
+
+
+.escolher-item{
+
+    text-align-last:center;
+    padding-right: 28px;
+    direction: rtl;
+}
+
 @include media( '>medium' ) {
 
     .features-wrap {

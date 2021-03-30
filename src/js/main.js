@@ -67,10 +67,159 @@
       opacity: [0, 1],
       easing: 'easeInOutExpo'
     })
-
-    
-
-
-
   }
+
+  var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
+      removeItemButton: true,
+      maxItemCount: 3,
+      searchResultLimit: 25,
+      renderChoiceLimit: 25,
+          choices: [
+          {
+              value: 'Lavanda',
+              label: 'Lavanda',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Alfazema',
+              label: 'Alfazema',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Rosas Vermelhas',
+              label: 'Rosas Vermelhas',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Breu Branco',
+              label: 'Breu Branco',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Flor Tupinambá',
+              label: 'Flor Tupinambá',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Flor de Laranjeira',
+              label: 'Flor de Laranjeira',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Baunilha',
+              label: 'Baunilha',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Flor de Cerejeira',
+              label: 'Flor de Cerejeira',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Alecrim',
+              label: 'Alecrim',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Capim Limão',
+              label: 'Capim Limão',
+              selected: false,
+              disabled: false,
+          },
+          {
+              value: 'Sândalo',
+              label: 'Sândalo',
+              selected: false,
+              disabled: false,
+          },
+            {
+              value: 'Mulateiro',
+              label: 'Mulateiro',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Açaí',
+              label: 'Açaí',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Buriti',
+              label: 'Buriti',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Muru Muru',
+              label: 'Muru Muru',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Algodão',
+              label: 'Algodão',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Patmirra',
+              label: 'Patmirra',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Patwood',
+              label: 'Patwood',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Bambu',
+              label: 'Bambu',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Mamãe Bebê',
+              label: 'Mamãe Bebê',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Cheirinho de Bebê',
+              label: 'Cheirinho de Bebê',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Floral Bebê',
+              label: 'Floral Bebê',
+              selected: false,
+              disabled: false,
+            },
+            {
+              value: 'Flor de Ameixa',
+              label: 'Flor de Ameixa',
+              selected: false,
+              disabled: false,
+            }],
+    itemSelectText:'',
+   // placeholder: true,
+   // placeholderValue: 'Escolha 3 aromas',
+    maxItemText: (maxItemCount) => {
+      return `Apenas ${maxItemCount} aromas`;
+    },
+    
+    });
+   
 }())
