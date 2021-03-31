@@ -204,7 +204,7 @@ $choices-z-index: 1;
     margin-bottom: 3.75px;
     background-color: $choices-primary-color;
     border: 1px solid darken($choices-primary-color, 5%);
-    color: #ffffff;
+    color: #000000;
     word-break: break-all;
     box-sizing: border-box;
     &[data-deletable] {
