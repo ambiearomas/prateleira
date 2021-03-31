@@ -217,7 +217,7 @@
    // placeholder: true,
    // placeholderValue: 'Escolha 3 aromas',
     maxItemText: (maxItemCount) => {
-      return `Apenas ${maxItemCount} aromas`;
+      return `Você já escolheu os ${maxItemCount} aromas.`;
     },
     
     });
