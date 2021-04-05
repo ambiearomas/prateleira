@@ -344,7 +344,7 @@ $choices-z-index: 1;
 .#{$choices-selector}__input {
   display: inline-block;
   vertical-align: baseline;
-  background-color: $choices-bg-color;
+  background-color: transparent;
   font-size: $choices-font-size-md;
   margin-bottom: 5px;
   border: 0;
