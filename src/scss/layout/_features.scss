@@ -30,19 +30,35 @@
     justify-content: center;
 }
 
+.feature-price-aroma{
+    font-size: x-large;
+    font-weight: bold;
+    font-family:'Fira Sans Condensed', sans-serif;;
+}
+
+.feature-description-aroma{
+    font-size: medium;
+    font-family:'Fira Sans Condensed', sans-serif;;
+
+}
+
+.feature-radio-tipo{
+
+    font-size: medium;
+    font-weight: bold;
+    font-family:'Fira Sans Condensed', sans-serif;;
+}
+
 .feature-select-aroma {
     color:rgb(0, 0, 0);
     width: 85%;         
     display: inline-block;
     vertical-align: top;
-   // background-color: transparent;
     border: 0;
     border-radius: 2.5px;
     text-align-last: center;
     text-align:center;
 }
-
-
 
 @include media( '>medium' ) {
 

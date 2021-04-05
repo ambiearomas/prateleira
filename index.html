@@ -8,7 +8,9 @@
     <title>Ambi&#234;</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Open+Sans&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;300&display=swap" rel="stylesheet">
+    
 
     <link rel="stylesheet" href="dist/css/style.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/> -->
@@ -60,7 +62,7 @@
                     </div>                                   
 				</div> 
             </section>
-            <section class="features section" style="font-family:Karla;"> 
+            <section class="features section" style="font-family: 'Fira Sans Condensed', sans-serif;"> 
                 <div class="container">
                     <div class="features-inner section-inner has-top-divider">
                         <p></p>
@@ -73,25 +75,25 @@
                                         <object data="dist/images/kitspray3aromas.svg" type="image/svg+xml" style="width:60%;" height="60%"></object>                                          
 								        <!--<img src="dist/images/kitspray3aromas.svg"  alt="Kit Frasco vidro spray 15ml" style="width:100px;"> -->
                                     </div> 
-                                    <h4 class="feature-title mt-24">R$25,00</h4>
-                                    <p class="text-sm mb-0">Kit com 3 frascos de vidro, spray, 15ml cada, contendo 3 aromas a sua escolha.</p>
+                                    <h4 class="feature-price-aroma">R$30,00</h4>
+                                    <p class="feature-description-aroma">Kit com 3 frascos de vidro, spray, 15ml cada, contendo 3 aromas a sua escolha.</p>
+                                    <p class="feature-radio-tipo">
                                         <input type = "radio" id = "1" name = "tipo" valor = "Perfume para papel">
                                         <label for = "Papel"> Papel </label>
                                         <input type = "radio" id = "2" name = "tipo" valor = "Perfume para roupa">
                                         <label for = "Roupa"> Roupa </label>
                                         <input type = "radio" id = "3" name = "tipo" valor = "Perfume para ambiente">
                                         <label for = "Ambiente"> Ambiente </label>
-
-                                        <div class="row d-flex justify-content-center mt-100">
+                                    </p>   
+                                        <div class="row d-flex justify-content-center mt-100" style="margin-top: 20px;">
                                             <div class="feature-select-aroma">
                                                 <select id="choices-multiple-remove-button" multiple >
-                                                    <option value="">Escolha 3 aromas </option>
+                                                    <option value="";>Escolha 3 aromas </option>
                                                 </select>                                   
                                             </div>
-                                            <div>
-                                                <object data="dist/images/vou_levar.svg" type="image/svg+xml"></object>
+                                            <div style="margin-top: 30px;">
+                                                <object data="dist/images/shopping_cart.svg" type="image/svg+xml"></object>
                                                 <button class="carrinho" onClick="javascript:carrinho_clip()"></button>  
-
                                             </div>
                                         </div>
                                 </div>
@@ -101,7 +103,7 @@
                                      <div class="feature-icon">
 									    <object data="dist/images/spray60ml.svg" type="image/svg+xml" style="width:60%;" height="60%"></object>  
                                     </div> 
-                                    <h4 class="feature-title mt-24">R$15,00</h4>
+                                    <h4 class="feature-title mt-24">R$17,00</h4>
                                     <p class="text-sm mb-0">Frasco pet spray redondo. Contém 60ml de aroma a sua escolha.</p>
                                     
                                         <input type = "radio" id = "1" name = "tipo" valor = "Perfume para papel">
@@ -167,14 +169,14 @@
 										<object data="dist/images/difusorvidro50ml.svg" type="image/svg+xml" style="width:60%;" height="60%"> </object> 
                                     </div>
                                     <h4 class="feature-title mt-24">R$ 35,00</h4>
-                                    <p class="text-sm mb-0">Frasco de vidro, formato cubo, preto, difusor; 50ml de aroma a sua escolha. Acompanha 5 varetas de bambu.</p>
+                                    <p class="feature-description-aroma">Frasco de vidro, formato cubo, preto, difusor; 50ml de aroma a sua escolha. Acompanha 5 varetas de bambu.</p>
                                 
-                                    <input type = "checkbox" id = "1" name = "tipo" valor = "0">
-                                    <label for = "Papel" style="font-size:medium;"> 5 Varetas de Bambu (+R$0,00)</label>
-                                    <input type = "checkbox" id = "2" name = "tipo" valor = "5">
-                                    <label for = "Roupa" style="font-size:medium;"> 5 Varetas de Fibra (+R$5,00)</label>
-                                    <input type = "checkbox" id = "3" name = "tipo" valor = "10">
-                                    <label for = "Ambiente" style="font-size:medium;"> 1 Flor Difusora (+R$10,00)</label>
+                                    <p style="margin-bottom: 10px;"><input type = "checkbox" id = "1" name = "tipo" valor = "0">
+                                    <label for = "Papel" style="font-size:medium;"> 5 Varetas de Bambu (+R$0,00)</label></p>
+                                    <p style="margin-top: 0px;"><input type = "checkbox" id = "2" name = "tipo" valor = "5">
+                                    <label for = "Roupa" style="font-size:medium;"> 5 Varetas de Fibra (+R$5,00)</label></p>
+                                    <p style="margin-top: 0px;"><input type = "checkbox" id = "3" name = "tipo" valor = "10">
+                                    <label for = "Ambiente" style="font-size:medium;"> 1 Flor Difusora (+R$10,00)</label></p>
                                 
                                 </div>
                             </div>

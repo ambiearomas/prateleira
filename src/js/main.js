@@ -71,6 +71,7 @@
 
   var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
       removeItemButton: true,
+      duplicateItemsAllowed: true,
       maxItemCount: 3,
       searchResultLimit: 25,
       renderChoiceLimit: 25,

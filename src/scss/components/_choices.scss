@@ -334,12 +334,17 @@ $choices-z-index: 1;
   }
 }
 
+::-webkit-input-placeholder{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: medium;
+}
+
 .#{$choices-selector}__input {
   display: inline-block;
   vertical-align: baseline;
   background-color: transparent;
   font-size: $choices-font-size-md;
-  margin-bottom: 5px;
   border: 0;
   border-radius: 0;
   max-width: 100%;
