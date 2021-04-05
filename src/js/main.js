@@ -215,8 +215,8 @@
               disabled: false,
             }],
     itemSelectText:'',
-   // placeholder: true,
-   // placeholderValue: 'Escolha 3 aromas',
+   placeholder: true,
+   placeholderValue: 'Escolha 3 aromas',
     maxItemText: (maxItemCount) => {
       return `Você já escolheu os ${maxItemCount} aromas.`;
     },
